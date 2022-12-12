@@ -5,10 +5,12 @@
 }
 
 body {
-  margin: 60px auto;
+  margin: 0 auto;
   max-width: 800px;
 }
-
+.body {
+  margin: 0 auto;
+}
 h1,
 h2,
 h3 {
@@ -88,4 +90,15 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 420px) {
+  #header3,
+  .email-link {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  #make-it-smaller {
+    font-size: 26px;
+  }
 }
